@@ -1,0 +1,17 @@
+parameters:    
+    vonage_client:
+        api_key:
+        api_secret:
+        signature_secret:
+        signature_method:
+        private_key:
+        private_key_path:
+        application_id:
+
+services:
+    vonage_client.client: '@Vonage\Client'
+
+    Vonage\Client:
+        factory: ['Vonage\ClientBundle\VonageClientFactory', 'createVonageClient']
+        arguments: ['@service_container']
+        public: true

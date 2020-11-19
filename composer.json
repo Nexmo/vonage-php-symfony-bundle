@@ -1,0 +1,22 @@
+{
+    "name": "vonage/symfony",
+    "description": "Provides config and dependency injection for the Vonage Client in Symfony applications",
+    "type": "symfony-bundle",
+    "require": {
+        "vonage/client": "^2.4",
+        "symfony/framework-bundle": "^5.1"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "email": "chris@ctankersley.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vonage\\ClientBundle\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}
