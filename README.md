@@ -93,6 +93,7 @@ class MyController
 ```
 
 [signup]: https://dashboard.nexmo.com/sign-up?utm_source=DEV_REL&utm_medium=github&utm_campaign=php-symfony-bundle
+[dashboard]: https://dashboard.nexmo.com?utm_source=DEV_REL&utm_medium=github&utm_campaign=php-symfony-bundles
 [issues]: https://github.com/nexmo/vonage-php-symfony-bundle/issues
 [pulls]: https://github.com/nexmo/vonage-php-symfony-bundle/pulls
 
